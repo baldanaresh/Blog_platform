@@ -55,7 +55,6 @@ const AdminPostsPage = () => {
         headers: {
           Authorization: `Bearer ${token}`,
         },
-        
       }
       ); // Updated to `/update/:id`
       setPosts(posts.map(post => (post.id === postId ? response.data : post)));
