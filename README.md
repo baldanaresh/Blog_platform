@@ -46,9 +46,13 @@ npm start
 **Here are the main API endpoints you can use:**
 
 GET /posts - Retrieve all blog posts
+
 GET /posts/:id - Retrieve a single blog post by ID
+
 POST /posts - Create a new blog post
+
 PUT /posts/:id - Update a blog post by ID
+
 DELETE /posts/:id - Delete a blog post by ID
 
 ## Contributing
