@@ -15,7 +15,7 @@ Built with a modern tech stack, this platform provides a user-friendly interface
 
 ## Features
 
-- User authentication (to be implemented)
+- User authentication 
 - Create, read, update, and delete (CRUD) blog posts
 - Commenting functionality on blog posts
 - Responsive design for mobile and desktop devices
@@ -23,7 +23,7 @@ Built with a modern tech stack, this platform provides a user-friendly interface
 
 ## Technologies Used
 
-- **Frontend**: React, Framer Motion, Tailwind CSS
+- **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (or your preferred database)
 - **API**: RESTful API using Axios for data fetching
@@ -33,6 +33,7 @@ Built with a modern tech stack, this platform provides a user-friendly interface
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/blog_platform.git
+   
 ## Navigate to the project directory:
 cd blog_platform
 
