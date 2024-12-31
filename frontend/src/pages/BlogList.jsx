@@ -40,7 +40,7 @@ const BlogList = () => {
       }}>Create Blog</h1> */}
       <button onClick={()=>{
         navigate('/AdminPostsPage')
-      }}> Create Post</button>
+      }}><h2 className='text-3xl text-white rounded-full mb-4 p-4 hover:text-yellow-300 bg-purple-600'>Create Post</h2> </button>
 
       {/* Render the list of blogs */}
       {blogs.length > 0 ? (

@@ -81,19 +81,19 @@ const LandingPage = () => {
                 <h3 className="text-2xl font-bold">Basic</h3>
                 <p className="text-white">$5/month</p>
                 <p className="text-white">Basic features for beginner bloggers.</p>
-                <a href="#signup" className="text-yellow-400 font-semibold">Sign Up</a>
+                <a href="/Signup" className="text-yellow-400 font-semibold">Sign Up</a>
               </div>
               <div className="bg-gray-800 rounded-lg p-6">
                 <h3 className="text-2xl font-bold">Pro</h3>
                 <p className="text-white">$15/month</p>
                 <p className="text-white">Advanced features for serious bloggers.</p>
-                <a href="#signup" className="text-yellow-400 font-semibold">Sign Up</a>
+                <a href="/Signup" className="text-yellow-400 font-semibold">Sign Up</a>
               </div>
               <div className="bg-gray-800 rounded-lg p-6">
                 <h3 className="text-2xl font-bold">Enterprise</h3>
                 <p className="text-white">Contact us for pricing.</p>
                 <p className="text-white">Custom solutions for large organizations.</p>
-                <a href="#signup" className="text-yellow-400 font-semibold">Sign Up</a>
+                <a href="/Signup" className="text-yellow-400 font-semibold">Sign Up</a>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ const LandingPage = () => {
         {/* Call to Action Section */}
         <section className="py-20 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Blogging Journey?</h2>
-          <a href="#signup" className="bg-yellow-400 text-purple-800 px-8 py-4 rounded-full text-xl font-semibold hover:bg-yellow-300 transition-colors">
+          <a href="/Signup" className="bg-yellow-400 text-purple-800 px-8 py-4 rounded-full text-xl font-semibold hover:bg-yellow-300 transition-colors">
             Get Started
           </a>
         </section>

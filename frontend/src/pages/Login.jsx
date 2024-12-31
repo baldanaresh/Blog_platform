@@ -28,7 +28,7 @@ const Login = () => {
       const token = response.data.token;
       setSuccess('Login successful!');
       localStorage.setItem('token', token); // Store the JWT in localStorage
-      navigate('/');
+      navigate('/BlogList');
     } catch (err) {
       setError(err.response?.data?.error || 'Invalid email or password');
     }
@@ -40,6 +40,9 @@ const Login = () => {
         className="bg-white p-8 rounded shadow-md w-1/3"
         onSubmit={handleSubmit}
       >
+        <p className='text-slate-400'>Dont have an account ?
+           <a href='/Signup' className='underline font-bold hover:text-sky-600 hover:font-extrabold'>Signup</a>
+           </p>
         <h2 className="text-2xl font-bold mb-6">Login</h2>
 
         <div className="mb-4">

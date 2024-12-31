@@ -41,7 +41,7 @@ const Signup = () => {
       const response = await axios.post('http://localhost:3000/users/signup', data);
       console.log('Signup successful:', response.data);
       setSuccessMessage("Signup successful!"); // Set success message
-        navigate('/')
+        navigate('/BlogList')
     } catch (error) {
       console.error('Error during signup:', error);
       setErrorMessage("Error during signup, please try again."); // Set error message
@@ -53,6 +53,7 @@ const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <form onSubmit={handleSubmit(onSubmit)} className="bg-white p-8 rounded shadow-md w-96">
+        <p className='text-slate-400'>Already have an account ? <a href=' /Login' className='underline font-bold hover:text-sky-600 hover:font-extrabold'>Login</a></p>
         <h1 className="text-2xl font-bold mb-6 text-center">Signup</h1>
 
         {/* Name Field */}
